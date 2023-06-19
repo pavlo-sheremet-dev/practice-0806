@@ -1,0 +1,76 @@
+Date : 2023-06-09 16:31:33
+Directory : e:\practice-0806
+Total : 28 files,  25873 codes, 30 comments, 211 blanks, all 26114 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JSON               |          4 |     25,070 |          0 |          4 |     25,074 |
+| Markdown           |          4 |        319 |          0 |        125 |        444 |
+| JavaScript JSX     |         11 |        272 |          5 |         55 |        332 |
+| HTML               |          2 |         96 |         25 |          5 |        126 |
+| JavaScript         |          3 |         74 |          0 |         12 |         86 |
+| YAML               |          2 |         23 |          0 |          6 |         29 |
+| CSS                |          1 |         13 |          0 |          3 |         16 |
+| JSON with Comments |          1 |          6 |          0 |          1 |          7 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                          | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                             |         28 |     25,873 |         30 |        211 |     26,114 |
+| . (Files)                                                     |          9 |     25,373 |          0 |        130 |     25,503 |
+| .github                                                       |          1 |         20 |          0 |          5 |         25 |
+| .github\workflows                                             |          1 |         20 |          0 |          5 |         25 |
+| public                                                        |          3 |        121 |         25 |          6 |        152 |
+| src                                                           |         15 |        359 |          5 |         70 |        434 |
+| src (Files)                                                   |          2 |         25 |          0 |          5 |         30 |
+| src\components                                                |          9 |        154 |          5 |         32 |        191 |
+| src\components (Files)                                        |          1 |         26 |          5 |          5 |         36 |
+| src\components\Cast                                           |          1 |         30 |          0 |          7 |         37 |
+| src\components\Form                                           |          1 |         20 |          0 |          5 |         25 |
+| src\components\Loader                                         |          2 |         22 |          0 |          5 |         27 |
+| src\components\MovieInfo                                      |          1 |         19 |          0 |          2 |         21 |
+| src\components\MoviesList                                     |          1 |         16 |          0 |          3 |         19 |
+| src\components\Reviews                                        |          1 |          4 |          0 |          2 |          6 |
+| src\components\SharedLayout                                   |          1 |         17 |          0 |          3 |         20 |
+| src\pages                                                     |          3 |        131 |          0 |         25 |        156 |
+| src\services                                                  |          1 |         49 |          0 |          8 |         57 |
++---------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                      | language           | code       | comment    | blank      | total      |
++---------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| e:\practice-0806\.github\workflows\deploy.yml                 | YAML               |         20 |          0 |          5 |         25 |
+| e:\practice-0806\.prettierrc.json                             | JSON               |         12 |          0 |          1 |         13 |
+| e:\practice-0806\README.en.md                                 | Markdown           |         77 |          0 |         29 |        106 |
+| e:\practice-0806\README.es.md                                 | Markdown           |         77 |          0 |         29 |        106 |
+| e:\practice-0806\README.md                                    | Markdown           |         81 |          0 |         33 |        114 |
+| e:\practice-0806\README.pl.md                                 | Markdown           |         84 |          0 |         34 |        118 |
+| e:\practice-0806\jsconfig.json                                | JSON with Comments |          6 |          0 |          1 |          7 |
+| e:\practice-0806\package-lock.json                            | JSON               |     24,990 |          0 |          1 |     24,991 |
+| e:\practice-0806\package.json                                 | JSON               |         43 |          0 |          1 |         44 |
+| e:\practice-0806\public\404.html                              | HTML               |         48 |          0 |          3 |         51 |
+| e:\practice-0806\public\index.html                            | HTML               |         48 |         25 |          2 |         75 |
+| e:\practice-0806\public\manifest.json                         | JSON               |         25 |          0 |          1 |         26 |
+| e:\practice-0806\src\components\App.jsx                       | JavaScript JSX     |         26 |          5 |          5 |         36 |
+| e:\practice-0806\src\components\Cast\Cast.jsx                 | JavaScript JSX     |         30 |          0 |          7 |         37 |
+| e:\practice-0806\src\components\Form\Form.jsx                 | JavaScript JSX     |         20 |          0 |          5 |         25 |
+| e:\practice-0806\src\components\Loader\Loader.jsx             | JavaScript JSX     |          9 |          0 |          3 |         12 |
+| e:\practice-0806\src\components\Loader\Loader.styled.js       | JavaScript         |         13 |          0 |          2 |         15 |
+| e:\practice-0806\src\components\MovieInfo\MovieInfo.jsx       | JavaScript JSX     |         19 |          0 |          2 |         21 |
+| e:\practice-0806\src\components\MoviesList\MoviesList.jsx     | JavaScript JSX     |         16 |          0 |          3 |         19 |
+| e:\practice-0806\src\components\Reviews\Reviews.jsx           | JavaScript JSX     |          4 |          0 |          2 |          6 |
+| e:\practice-0806\src\components\SharedLayout\SharedLayout.jsx | JavaScript JSX     |         17 |          0 |          3 |         20 |
+| e:\practice-0806\src\index.css                                | CSS                |         13 |          0 |          3 |         16 |
+| e:\practice-0806\src\index.js                                 | JavaScript         |         12 |          0 |          2 |         14 |
+| e:\practice-0806\src\pages\Home.jsx                           | JavaScript JSX     |         34 |          0 |          7 |         41 |
+| e:\practice-0806\src\pages\MovieDetails.jsx                   | JavaScript JSX     |         58 |          0 |         11 |         69 |
+| e:\practice-0806\src\pages\Movies.jsx                         | JavaScript JSX     |         39 |          0 |          7 |         46 |
+| e:\practice-0806\src\services\api.js                          | JavaScript         |         49 |          0 |          8 |         57 |
+| e:\practice-0806\uk_translation.yml                           | YAML               |          3 |          0 |          1 |          4 |
+| Total                                                         |                    |     25,873 |         30 |        211 |     26,114 |
++---------------------------------------------------------------+--------------------+------------+------------+------------+------------+

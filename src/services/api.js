@@ -53,4 +53,21 @@ export const fetchActors = async id => {
     .slice(0, 10);
 };
 
+export const fetchReviews = async id => {
+  const params = {
+    api_key: API_KEY,
+    language: 'en-US',
+  };
+  const response = await axios.get(`movie/${id}/reviews`, { params });
+  return response.data.results
+    .map(item => {
+      return {
+        id: item.id,
+        name: item.author,
+        content: item.content,
+      };
+    })
+    .slice(0, 10);
+};
+
 export const getPoster = url => (url ? BASE_POSTER_URL + url : NO_POSTER);

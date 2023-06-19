@@ -28,7 +28,14 @@ const Cast = () => {
   return (
     <>
       {isLoading && <Loader />}
-      <ul>Cast</ul>
+      <ul>
+        {actors.map(({ id, name, poster }) => (
+          <li key={id}>
+            <p>{name}</p>
+            <img src={poster} alt={name} />
+          </li>
+        ))}
+      </ul>
     </>
   );
 };
